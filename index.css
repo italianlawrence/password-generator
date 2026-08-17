@@ -35,15 +35,24 @@ h1 {
     margin-top: 50px;
 }
 
-hr {
-    color: whitesmoke;
-    width: 100%;
-}
-
 input[type='number'] {
     width: 500px;
     padding: 30px;
     text-align: center;
     border: none;
     border-radius: 5px;
+}
+
+.passwords {
+    display: flex;
+    gap: 20px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+.pass-wrapper {
+    background-color: #273459;
+    padding: 10px;
+    color: #4ADF86;
+    border-radius: 10px;
 }
